@@ -1,0 +1,33 @@
+.lorem {
+  color: red;
+  background: yellow;
+  padding: 10px 15px 20px;
+  border: 5px solid green;
+  border-radius: 15px;
+  margin: 50px;
+  /*display: none;*/
+}
+
+.lorem:hover {
+  color: yellow;
+  background-color: red;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.block {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}
+
+@media screen and (max-width: 560px) {
+  .d-flex {
+    flex-direction: column;
+  }
+}
