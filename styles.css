@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 .lorem {
   color: red;
   background: yellow;
@@ -15,19 +21,25 @@
 
 .d-flex {
   display: flex;
-  justify-content: space-around;
-  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
 .block {
-  background-color: blue;
-  width: 200px;
-  height: 200px;
+  background-color: dodgerblue;
+  width: 40vh;
+  height: 40vh;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  overflow:scroll; 
 }
 
+/* 
 @media screen and (max-width: 560px) {
   .d-flex {
     flex-direction: column;
   }
 }
+ */
