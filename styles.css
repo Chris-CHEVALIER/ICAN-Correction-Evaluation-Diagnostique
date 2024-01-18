@@ -4,6 +4,10 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+img {
+    width: 20vw;
+}
+
 .lorem {
   color: red;
   background: yellow;
@@ -36,10 +40,8 @@ body {
   overflow:scroll; 
 }
 
-/* 
 @media screen and (max-width: 560px) {
-  .d-flex {
-    flex-direction: column;
-  }
+    img {
+        width: 90vw;
+    }
 }
- */
